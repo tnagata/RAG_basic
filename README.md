@@ -13,6 +13,11 @@ $python download_model.py<br>
 以下のコマンドを実行して、必要なライブラリをダウンロードする（１回だけ）<br>
 $ pip install lamgchain<br>
 $ pip install langchain-community==0.0.26   *最新版の0.0.27はバグがありNG<br>
+MetaのFAISS(ベクトル検索ライブラリ)をインストールする<br>
+NVIDIA製GPUがある場合は、gpu版のインストール<br>
+$ pip install faiss-gpu<br>
+そうでない場合は、cpu版のインストール<br>
+$ pip install faiss-cpu<br>
 2-2 以下のスクリプトを実行する<br>
 $ python index_create.py    **追加データを変更したら再度走らせる<br>
 
