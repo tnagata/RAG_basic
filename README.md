@@ -4,7 +4,7 @@
 python v.3.11.9で確認　（v.3.12では未確認）
 
 1-1 以下のスクリプトを実行して、HuggingFaceのLLM(ELYZA-japanese-Llama-2-7b-fast-instruct-q4_K_M.gguf)をローカル(ワーキングディレクトリ）に保存する:<br>
-$python download_model.py<br>
+$ python download_model.py<br>
 1-2 予めhf_modelディレクトリを作成し、embedding用のモデル(intfloat/multilingual-e5-large)をHuggingFaceのサイトよりダウンロードして、ここに保存する<br>
 
 2-1 追加データをembeddingしたindexを生成して、保存する:<br>
